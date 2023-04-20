@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavivanar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Kavivanar&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+   
+}
+:root{
+    --white-color:                 #ffffff;
+  --primary-color:                #e0e7ed;
+  --section-bg-color:             #f9f9f9;
+  --dark-color:                   #000000;
+  --grey-color:                   #fcfeff;
+  --text-secondary-white-color:   #fffffffa;
+  --title-color:                  #565758;
+  --p-color:                      #717275;
+  --font-family: 'Kavivanar', cursive;
+  --font-family: 'Gruppo', cursive;
+ 
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 3.5rem;
+  
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Gruppo', cursive;
+}
+p{
+    font-family: 'Kavivanar', cursive;
+    color: #6c6b6b;
+}
+h1{
+    font-weight: 800;
+}
+h2{
+    font-weight: 700;
+}
+h3{
+    font-weight: 600;
+}
+.arrow{
+    position: fixed;
+    background-color: #918f8f;
+    border-radius: 50px;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+    width: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+}
+.navbar{
+    background-color: #e0e7ed;
+}
+.navbar-brand{
+    font-family: 'Gruppo', cursive;
+    font-size: 40px;
+    font-weight: 1000;
+    text-shadow: 0px 0px 0px #000000;
+
+}
+.navbar-brand, .nav-link:hover{
+    color: blue;
+}
+.nav-link{
+    font-family: 'Gruppo', cursive;
+    font-weight: 600;
+    
+}
+
+.text-sec{
+    margin-left: 14%;
+   font-weight: 600;
+}
+.text-sec1{
+    margin-left: 14%;
+   font-weight: 350;
+   font-size: 25px;
+   margin-top: -10%;
+  
+}
+.text-sec2 {
+    margin-left: 14%;
+    font-weight: 350;
+    font-size:25px;
+    
+}
+.text-btn{
+    background-color: var(--primary-color);
+    color: #000000;
+    font-weight: 800;
+    border-radius: 20px;
+    
+}
+.btn-vivo{
+    background-color: #f3f3f3;
+    width: 28px;
+    height: 25px;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 40%;
+    padding: 4px;
+    border: 1.5px solid black;
+}
+.tumb{
+    background-color: #f7f7f7;
+}
+
+footer{
+    background-color:  rgb(14, 16, 39);
+}
+.icon {
+    background: #02041a;
+    border-radius: 20px;
+    width: 14px;
+    height: 20px;
+    display: inline;
+    padding:6px;
+    padding-right: 1px;
+    color: rgb(249, 249, 250);
+}
+.icon i{
+    padding: 4px;
+}
+.icon:hover{
+    color:  #02041a;
+    background: #b8b6b6;
+}
+.footer-text h4, .footer-sec{
+    font-size: 16px;
+    padding: 10px;
+    color: #b8b6b6;
+    font-weight: 400;
+}
+
+
+.lay-tumb{
+    position: relative;
+    overflow: hidden;
+}
+ /*.lay-tumb .sec-img{
+    
+}
+.tumb img{
+    
+}*/
+
+
+
+.products{
+    background-color:  #eff3f7 ;
+    margin-top: 20px;
+}
+.products h3{
+    font-weight: 500;
+    font-size: 20px;
+    transition: all o.3s ease;
+    padding: 5px;
+
+
+}
+.products h3:hover{
+    background-color: #4b94dd;
+    width:100px;
+    height: 35px;
+    border-radius: 20px;
+    padding: 5px;
+}
+.text-brand {
+    font-weight: 400;
+    font-size: 20px;
+   
+
+}
+.retail{
+    background: url(image/rt1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 150vh;
+    margin-top: 4%;
+   
+}
+.retail-text h2{
+    margin-top: 27%;
+    font-weight: bolder;
+    font-size: 45px;
+
+  
+}
+.retail-text p{
+    font-size: 19px;
+    color: #6d6b6b;
+}
+.retail-text .btn-btt{
+    background-color: white;
+    width: 30%;
+    height: 40px;
+    border-radius: 1px solid var(--white-color);
+    margin-left: 35%;
+   
+}
+.retail-footer{
+    margin-top: 20%;
+}
+
+
+.support{
+    background: url(image/support-home-banner-pc-vivo_a133269.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 130vh;
+    margin-top: 4%;
+    
+
+}
+.support-text h2{
+    margin-top: 27%;
+    font-weight: 800;
+    font-size: 50px;
+}
+.support-text p{
+    font-size: 20px;
+    color: #6d6b6b;
+    font-weight: 300;
+}
+
+
+.support-text .btn-btt{
+    background-color: white;
+    width: 25%;
+    height: 40px;
+    border-radius: 1px solid var(--white-color);
+    margin-left: 35%;
+
+}
+.support-content{
+    margin-top: 5%;
+    
+}
+.support-content a{
+    font-size: 60px;
+    
+}
+.support-content i{
+    color: #565758;
+}
+.support-content h4{
+    font-weight: 400;
+    font-size: 17px;
+}
+.service-center{
+    margin-top: 10%;
+    
+   
+}
+
+.service-center .btn-bt{
+    background-color: #ffffff;
+    width: 80px;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid #d1cccc;
+    border-radius: 20px;
+}
+.service-center h3{
+    font-weight: 400;
+    font-size: 25px;
+}
+.service-center h4{
+    font-weight: 300;
+    font-size: 20px;
+}
+.service-center a{
+    padding: 1px;
+}
+
+.funtouch .os-video{
+    width: 70%;
+    margin-left: 14%;
+}
+.funtouch .fun-text .fun-img{
+    background: linear-gradient(red, blue);
+}
+.funtouch .contents{
+    margin-top: 15%;
+}
+.funtouch .contents h5{
+    font-family: 'Lexend', sans-serif;
+    color: #808080;
+}
+.funtouch .contents h1{
+    color: #000064;
+}
+.funtouch .disc{
+    background-color: #ececec;
+}
+.funtouch .disclaimer p{
+    font-size: 14px;
+}
+.explore{
+    background: url(image/expol-hom.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 92vh;
+    margin-top: 4%;
+    
+}
+
+.exp-text{
+    margin-top: 20%;
+}
+.explore .line-text-sec{
+    margin-top: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 420px){
+    .home img{
+        position: relative;
+        margin-top: 9%;
+        
+    }
+    .text-sec{
+        font-size: 20px;
+    }
+    .text-sec1{
+        font-size: 14px;
+        margin-top: 3%;
+        
+    }
+    .text-sec2{
+        font-size: 19px;
+        margin-top: 13%;
+    }
+    .btn-vivo{
+        width: 15px;
+        height: 15px;
+        font-size: 10px;
+        padding: 1px;
+     
+    }
+    .tumb .text-sec{
+        font-size: 1px;
+    }
+    .retail{
+        background: url(image/support-center-banner-wap_5d5ea3a.png);
+        height: 60vh;
+        margin-top: 19%;
+        background-size: cover;
+       
+    }
+    .retail-text h2{
+        margin-top: 8%;
+        font-size: 30px; 
+    }
+    .retail-text p{
+        font-size: 14px;
+    }
+    .map{
+        margin-top: 25%;
+    }
+    .retail-text .btn-btt{
+        width: 45%;
+        margin-left: 30%;
+        height: 30px;
+    }
+    .retail-footer{
+        margin-top:60%;
+    }
+    .support{
+        background: url(image/support-home-banner-pc-vivo_a133269.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 110vh;
+        margin-top: 9%;
+        
+    
+    }
+    .support-text h2{  
+         margin-top: 60%;
+        font-size: 30px;
+
+    }
+    .support-text .btn-btt{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .support-text p{
+        font-size: 15px;
+    }
+    .service-center{
+        margin-top: 120%;
+    }
+    .funtouch .os-video{
+        margin-top: 20%;
+    }
+   
+}
+
+
+@media screen and (max-width: 600px){
+    .home img{
+        position: relative;
+        margin-top: 9%;
+        
+    }
+    .text-sec{
+        font-size: 20px;
+    }
+    .text-sec1{
+        font-size: 14px;
+        margin-top: 3%;
+        
+    }
+    .text-sec2{
+        font-size: 19px;
+        margin-top: 13%;
+    }
+    .btn-vivo{
+        width: 15px;
+        height: 15px;
+        font-size: 10px;
+        padding: 1px;
+     
+    }
+    .tumb .text-sec{
+        font-size: 1px;
+    }
+    .retail{
+        background: url(image/support-center-banner-wap_5d5ea3a.png);
+        height: 60vh;
+        margin-top: 19%;
+        background-size: cover;
+       
+    }
+    .retail-text h2{
+        margin-top: 8%;
+        font-size: 30px; 
+    }
+    .retail-text p{
+        font-size: 14px;
+    }
+    .map{
+        margin-top: 25%;
+    }
+    .retail-text .btn-btt{
+        width: 45%;
+        margin-left: 30%;
+        height: 30px;
+    }
+    .retail-footer{
+        margin-top:60%;
+    }
+    .support{
+        background: url(image/support-home-banner-pc-vivo_a133269.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 110vh;
+        margin-top: 9%;
+        
+    
+    }
+    .support-text h2{  
+         margin-top: 60%;
+        font-size: 30px;
+
+    }
+    .support-text .btn-btt{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .support-text p{
+        font-size: 15px;
+    }
+    .service-center{
+        margin-top: 120%;
+    }
+    .funtouch .os-video{
+        margin-top: 20%;
+    }
+   
+}
